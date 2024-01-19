@@ -33,3 +33,4 @@
 *.su
 
 *.cmake
+luac

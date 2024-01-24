@@ -1,6 +1,7 @@
-cmake_minimum_required(VERSION 3.27)
+cmake_minimum_required(VERSION 3.9)
 project(lua LANGUAGES C VERSION 5.4.6)
 
+cmake_policy(SET CMP0077 NEW)
 option(LUA_SUPPORT_DL "Support dynamic loading of compiled modules" OFF)
 option(LUA_BUILD_AS_CXX "Build lua as C++" OFF)
 option(LUA_ENABLE_SHARED "Build dynamic liblua" ON)

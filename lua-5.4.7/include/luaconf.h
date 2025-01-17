@@ -8,8 +8,14 @@
 #ifndef luaconf_h
 #define luaconf_h
 
+#if defined(__cplusplus)
+extern "C++" {
+#endif
 #include <limits.h>
 #include <stddef.h>
+#if defined(__cplusplus)
+}
+#endif
 
 
 /*

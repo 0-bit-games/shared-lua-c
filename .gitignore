@@ -38,3 +38,10 @@ CMakeFiles/
 Makefile
 lua-5.4.6/CMakeFiles/
 lua-5.4.6/Makefile
+
+# Build
+.ninja_deps
+.ninja_log
+CMakeCache.txt
+build.ninja
+lua

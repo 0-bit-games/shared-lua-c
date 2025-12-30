@@ -45,3 +45,9 @@ lua-5.4.6/Makefile
 CMakeCache.txt
 build.ninja
 lua
+ALL_BUILD.*
+INSTALL.*
+lua-5.4.8/Debug/
+lua-5.4.8/lua_static.dir/
+lua-5.4.8/lua_static.vcxproj*
+lua.sln
